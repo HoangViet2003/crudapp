@@ -91,7 +91,7 @@ function Homepage() {
 
     return (
         <div style={containerStyle}>
-            <button style={createPostButtonStyle}>Create Post</button>
+            <button style={createPostButtonStyle} onClick={() => window.location.href = '/create-post'}>Create Post</button>
 
             <div style={postCardContainerStyle}>
                 

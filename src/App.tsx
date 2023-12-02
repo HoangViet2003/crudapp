@@ -9,6 +9,7 @@ import {
 import Navbar from './layouts/navbar';
 import Homepage from './pages/homepage';
 import Detailpage from './pages/detailpage';
+import Createpage from './pages/createpage';
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
       children: [
         { path: "/", element: <Homepage /> },
         { path: '/post-detail/:id', element: <Detailpage />},
+        { path: '/create-post', element: <Createpage />},
+
       ],
     }
 
